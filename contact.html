@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+		<title>Ana are mere</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<style type="text/css">
+			header, #main, section, footer {
+				float:left;
+				width: 100%;
+			}
+
+			#main {
+				text-align: center;
+			}
+
+			#main ul {
+				padding: 0;
+				list-style: none;
+				display: inline-block;
+			}
+			#main ul li {
+				float:left;
+			}
+
+			#main ul li a {
+			    text-decoration: none;
+			    background-color: #333;
+			    color: white;
+			    padding: 4px 8px;
+			    border-radius: 5px;
+			    margin:0 5px;
+			}
+
+			#main ul li a:hover, #main ul li a.active {
+				background-color:red;
+			}
+
+			.servicii {
+				margin:30px;
+				width: calc(100% - 60px);
+			}
+
+			.search {
+				background-image: url("http://www.spheretekk.com/bc/images/search-icon.gif");
+				background-repeat: no-repeat;
+				background-position: top right;
+				padding: 3px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="site">
+			<header>
+				<h1>Titlu site - Servicii</h1>
+			</header>
+			<nav id="main">
+				<ul>
+					<li>
+						<a href="index.html">Acasa</a>		
+					</li>
+					<li>
+						<a href="despre.html">Despre</a>		
+					</li>
+					<li>
+						<a href="servicii.html">Servicii</a>		
+					</li>
+					<li>
+						<a href="contact.html" class="active">Contact</a>		
+					</li>
+				</ul>
+			</nav>
+			<section>
+				<form action="contact.php" method="POST">
+					<div>
+						<input type="text" name="text" value="" autofocus="true" class="search" />
+					</div>
+					<div>
+						<input type="number" name="valoare" />
+					</div>
+					<div>
+						<input type="checkbox" />
+						<br>
+						<input type="checkbox" />
+						<input type="checkbox" />
+					</div>
+					<div>
+						Gen:<br>
+						Male: <input type="radio" name="sex" value="male" /><br>
+						Female: <input type="radio" name="sex" value="female" /><br>
+						Concita: <input type="radio" name="sex" value="concita" />
+					</div>
+					<div>
+						<input type="file" />
+					</div>
+					<div>
+						<input type="password" />
+					</div>
+					<div>
+						<textarea>&#259;</textarea>
+					</div>
+					<div>
+						Oras:
+						<select name="oras">
+							<option>Arad</option>
+							<option>Bacau</option>
+							<option value="Bacau">Iasi</option>
+						</select>
+					</div>
+					<div>
+						<input type="reset" />
+						<input type="submit" />
+					</div>
+				</form>
+			</section>
+			<footer>
+				<p>
+					Lorem ipsum sit doloret. <em>Lorem</em> ipsum sit doloret.Lorem ipsum sit doloret.<strong>Lorem</strong> ipsum sit doloret.<span>Lorem</span> ipsum sit doloret.
+					Lorem ipsum sit doloret.<span class="yolo">Lorem</span> ipsum sit doloret.Lorem ipsum sit doloret.
+					<strong><em>Lorem</em></strong>
+					 ipsum sit doloret.
+				</p>
+				<p>
+					Andrei sit doloret. <em>Lorem</em> ipsum sit doloret.Lorem ipsum sit doloret.<strong>Lorem</strong> ipsum sit doloret.<span>Lorem</span> ipsum sit doloret.
+					Lorem ipsum sit doloret.Lorem ipsum sit doloret.Lorem ipsum sit doloret.Lorem ipsum sit doloret.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>

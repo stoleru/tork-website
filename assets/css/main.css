@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+#site {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	background-color: #eee;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 30px;
+	color: #666;
+	padding: 28px;
+	text-align: center;
+	display: inline-block;
+}
+
+section {
+	background-color: #ccc;
+	height: calc(100vh - 220px);
+	margin: 10px 0;
+}
+
+section .produs {
+	float: left;
+    width: calc(25% - 12.5px);
+    height: 180px;
+    background-color: #666;
+    margin: 10px 0 0 10px;
+}
+
+section .produs img {
+	width: 100%;
+}
+
+footer {
+	height: 100px;
+	background-color: #eee;
+}
+
+footer p span {
+	color: red;
+	background-color: yellow;
+}
+
+footer p span.yolo {
+	color: yellow;
+	background-color: red;	
+}
+
+

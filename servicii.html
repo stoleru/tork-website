@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ana are mere</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<style type="text/css">
+			header, #main, section, footer {
+				float:left;
+				width: 100%;
+			}
+
+			#main {
+				text-align: center;
+			}
+
+			#main ul {
+				padding: 0;
+				list-style: none;
+				display: inline-block;
+			}
+			#main ul li {
+				float:left;
+			}
+
+			#main ul li a {
+			    text-decoration: none;
+			    background-color: #333;
+			    color: white;
+			    padding: 4px 8px;
+			    border-radius: 5px;
+			    margin:0 5px;
+			}
+
+			#main ul li a:hover, #main ul li a.active {
+				background-color:red;
+			}
+
+			.servicii {
+				margin:30px;
+				width: calc(100% - 60px);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="site">
+			<header>
+				<h1>Titlu site - Servicii</h1>
+			</header>
+			<nav id="main">
+				<ul>
+					<li>
+						<a href="index.html">Acasa</a>		
+					</li>
+					<li>
+						<a href="despre.html">Despre</a>		
+					</li>
+					<li>
+						<a href="servicii.html" class="active">Servicii</a>		
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>		
+					</li>
+				</ul>
+			</nav>
+			<section>
+				<table border="1" cellpadding="3" cellspacing="0" class="servicii">
+					<thead align="left">
+						<tr>
+							<th>Nume serviciu</th>
+							<th>Descriere</th>
+							<th>Pret</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Stat degeaba</td>
+							<td>Lorem ipsum sit doloret</td>
+							<td>RON100</td>
+						</tr>
+						<tr>
+							<td>Stat degeaba2</td>
+							<td>Lorem ipsum sit doloret</td>
+							<td>RON150</td>
+						</tr>
+						<tr>
+							<td>Stat degeaba3</td>
+							<td colspan="2" align="right">RON200</td>
+						</tr>
+					</tbody>
+					<tfoot align="left">
+						<tr>
+							<th>Nume serviciu</th>
+							<th>Descriere</th>
+							<th>Pret</th>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+			<footer>
+				<p>
+					Lorem ipsum sit doloret. <em>Lorem</em> ipsum sit doloret.Lorem ipsum sit doloret.<strong>Lorem</strong> ipsum sit doloret.<span>Lorem</span> ipsum sit doloret.
+					Lorem ipsum sit doloret.<span class="yolo">Lorem</span> ipsum sit doloret.Lorem ipsum sit doloret.
+					<strong><em>Lorem</em></strong>
+					 ipsum sit doloret.
+				</p>
+				<p>
+					Andrei sit doloret. <em>Lorem</em> ipsum sit doloret.Lorem ipsum sit doloret.<strong>Lorem</strong> ipsum sit doloret.<span>Lorem</span> ipsum sit doloret.
+					Lorem ipsum sit doloret.Lorem ipsum sit doloret.Lorem ipsum sit doloret.Lorem ipsum sit doloret.
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
